@@ -8,6 +8,14 @@ $ node tcpServer.js
 $ node tcpClient.js
 ```
 
+`package.json`
+
+```
+{ "type": "module", }
+```
+
+추가 할 경우, import 구문으로 불러오기 가능
+
 참고
 
 - https://nodejs.org/api/http.html
