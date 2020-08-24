@@ -1,4 +1,4 @@
-const http = require('http');
+import http from 'http';
 
 // HTTP 서버 인스턴스 생성
 const server = http.createServer( (req, res) => {

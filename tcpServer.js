@@ -1,4 +1,4 @@
-const net = require('net'); // net 모듈 import 
+import net from 'net';
 
 // TCP 서버 생성
 const server = net.createServer( (socket) => {

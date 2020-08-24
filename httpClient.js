@@ -1,4 +1,4 @@
-const http = require('http');
+import http from 'http';
 
 // 호출할 페이지 정보 설정
 const options = {
